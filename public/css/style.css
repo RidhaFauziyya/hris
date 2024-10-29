@@ -1,0 +1,24 @@
+
+:root{
+    --main-purple: #31227D;
+}
+
+
+/** Navbar Costum **/
+.navbar-top{
+    background-color: var(--main-purple);
+}
+
+.navbar-top .icon{
+    color: white;
+}
+
+.navbar-brand-image{
+    height: 3rem !important;
+}
+
+[data-bs-theme=dark] .navbar-brand-autodark .navbar-brand-image {
+    filter: none;
+}
+
+/** Navbar Costum End **/
