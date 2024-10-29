@@ -13,12 +13,25 @@
     color: white;
 }
 
-.navbar-brand-image{
-    height: 3rem !important;
-}
-
 [data-bs-theme=dark] .navbar-brand-autodark .navbar-brand-image {
     filter: none;
 }
 
 /** Navbar Costum End **/
+
+/**Button Main**/
+.btn-main{
+    background-color: var(--main-purple);
+    color: white;
+}
+/** End Buttin Main**/
+
+/** Design System**/
+.active>.page-link, .page-link.active {
+    background-color: var(--main-purple) !important;
+    border-color: var(--main-purple);
+}
+
+.page-title{
+    font-size:x-large !important;
+}
