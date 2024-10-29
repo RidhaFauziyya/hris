@@ -1,6 +1,9 @@
 @extends('layouts-admin.app')
 @section('pageTitle', isset($pageTitle) ? $pageTitle : 'Kegiatan' )
 
+@section('content')@extends('layouts-admin.app')
+@section('pageTitle', isset($pageTitle) ? $pageTitle : 'Kegiatan' )
+
 @section('content')
 <div class="page-wrapper">
     <!-- Page header -->

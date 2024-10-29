@@ -1,20 +1,25 @@
 @extends('layouts-admin.app')
-@section('pageTitle', isset($pageTitle) ? $pageTitle : 'Detail Kegiatan' )
+@section('pageTitle', isset($pageTitle) ? $pageTitle : 'Kegiatan' )
 
 @section('content')
-<div class="card">
-<div class="row row-0">
-<div class="col-3">
-    <!-- Photo -->
-    <img src="./static/photos/beautiful-blonde-woman-relaxing-with-a-can-of-coke-on-a-tree-stump-by-the-beach.jpg" class="w-100 h-100 object-cover card-img-start" alt="Beautiful blonde woman relaxing with a can of coke on a tree stump by the beach" />
-</div>
-<div class="col">
-    <div class="card-body">
-    <h3 class="card-title">Card with left side image</h3>
-    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit
-        incidunt, iste, itaque minima
-        neque pariatur perferendis sed suscipit velit vitae voluptatem.</p>
+<div class="page-wrapper">
+    <!-- Page header -->
+    <div class="page-header d-print-none">
+        <div class="container-xl">
+        <div class="row g-2 align-items-center">
+            <div class="col">
+            <h1 class="page-title">
+                Kegiatan
+            </h2>
+            </div>
+            <!-- Page title actions -->
+            <div class="col-auto ms-auto d-print-none">
+            <a href="#" class="btn btn-main">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg>
+                Buat Kegiatan Baru
+            </a>
+            </div>
+        </div>
+        </div>
     </div>
-</div>
-</div>
 @endsection
